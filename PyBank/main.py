@@ -42,6 +42,7 @@ print("Greatest Decrease in Profits:", highest_decrease_Date, "(", highest_decre
 
 output_file = "financial_analysis.txt"
 with open(output_file,"w") as text_file:
+    
     text_file.write("Financial Analysis\n") # the \n is used to input a new line (space)
     text_file.write("--------------------------\n")
     text_file.write(f"Total Months: {rows_with_date}\n")
